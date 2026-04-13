@@ -11,5 +11,5 @@ services:
       - "8080:80"
     container_name: reverse-proxy
     depends_on:
-      - app
+      - client
       - server

@@ -1,5 +1,5 @@
 services:
-  app:
+  client:
     image: codingtracker-vue:dev
     build:
       context: .
